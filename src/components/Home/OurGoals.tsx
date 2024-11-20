@@ -1,7 +1,11 @@
+import Consultations from "../Consultations/Consultations";
 
 const OurGoals = () => {
 	return (
 		<section className="mt-[50px]" dir="rtl">
+			<div className="mt-[50px]">
+				<Consultations/>
+			</div>
 			<div className=" text-black py-20">
 				<div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
 					<div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">

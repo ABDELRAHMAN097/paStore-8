@@ -15,6 +15,8 @@ import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import BrowseJobs from "./pages/browsejobs/BrowseJobs";
 import JobDetails from "./pages/jobDetails/JobDetails";
+import Consultations from "./components/Consultations/Consultations";
+import Booking from "./components/Booking/Booking";
 
 function App() {
   const router = createBrowserRouter([
@@ -61,6 +63,14 @@ function App() {
         {
           path: "/jobs/:jobId",
           element: <JobDetails />,
+        },
+        {
+          path: "/consultations",
+          element: <Consultations />,
+        },
+        {
+          path: "/booking",
+          element: <Booking />,
         },
       ],
     },

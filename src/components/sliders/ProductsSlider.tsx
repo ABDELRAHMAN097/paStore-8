@@ -90,7 +90,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ title, buttonTitle }) => 
                     {/* عناصر السلايدر */}
                     {[...Array(5)].map((_, index) => (
                       <div className="product !scale-[0.95] hover:!scale-1" key={index}>
-                        <Link to="/products/abobkr">
+                        <Link to="/products/box">
                         <div className="product-img">
                           <img src={`/img/home/start-work-category.jpeg`} alt="" />
                           <div className="product-label">
@@ -100,12 +100,12 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ title, buttonTitle }) => 
                           </div>
                         </div>
                         <div className="product-body">
-                          <p className="product-category">فئة المنتج</p>
+                          <p className="product-category">كتب</p>
                           <h3 className="product-name">
-                            <a href="#">اسم المنتج هنا</a>
+                            <a href="#">كيف تبيع الهواء</a>
                           </h3>
                           <h4 className="product-price">
-                            $980.00 <del className="product-old-price">$990.00</del>
+                            $2 <del className="product-old-price">$200</del>
                           </h4>
                           <div className="product-rating">
                             <i className="fa fa-star"></i>
